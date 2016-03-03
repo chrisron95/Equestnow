@@ -69,6 +69,6 @@ class RequestsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def request_params
-      params.require(:request).permit(:song_name, :artist_name, :album_name, :user_id)
+      params.require(:request).permit(:song_name, :artist_name, :album_name, :user_id, :venue_id)
     end
 end

@@ -4,7 +4,7 @@ class CreateVenues < ActiveRecord::Migration
       t.string :name
       t.string :location
       t.string :hours
-      t.integer :phone_number
+      t.string :phone_number
       t.text :description
 
       t.timestamps null: false

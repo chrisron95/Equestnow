@@ -42,7 +42,7 @@ ActiveRecord::Schema.define(version: 20160303211621) do
     t.string   "name"
     t.string   "location"
     t.string   "hours"
-    t.integer  "phone_number"
+    t.string   "phone_number"
     t.text     "description"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
