@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Song name:</strong>
+  <%= @request.song_name %>
+</p>
+
+<p>
+  <strong>Artist name:</strong>
+  <%= @request.artist_name %>
+</p>
+
+<p>
+  <strong>Album name:</strong>
+  <%= @request.album_name %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @request.user %>
+</p>
+
+<%= link_to 'Edit', edit_request_path(@request) %> |
+<%= link_to 'Back', requests_path %>
