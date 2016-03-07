@@ -25,7 +25,7 @@ function success(position) {
   var marker = new google.maps.Marker({
       position: coords,
       map: map,
-      title:"You are here!"
+      title:"You are so here!"
   });
 }
 
@@ -34,5 +34,3 @@ if (navigator.geolocation) {
 } else {
   error('Geo Location is not supported');
 } 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADo4aktLEcT6V4ZNkF-ZjPe3BMOIRk4SE&callback=initMap"
-    async defer></script>
