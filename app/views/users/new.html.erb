@@ -1,5 +1,11 @@
-<h1>New User</h1>
+<h1>Sign In</h1>
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"
+  data-auto-logout-link="true" >
+</fb:login-button>
 
+<div id="status">
+</div>
+ 
 <%= render 'form' %>
 
 <%= link_to 'Back', users_path %>
